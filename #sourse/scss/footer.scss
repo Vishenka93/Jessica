@@ -1,0 +1,94 @@
+.footer {
+   padding: 110px 0px;
+   background: #FEF2F2;
+@media (max-width:  767.98px){
+   padding: 40px 0px;
+}
+@media (max-width:  479.98px){
+   padding: 20px 0px;
+}
+   &__container {
+   }
+
+   &__body {
+      text-align: center;
+   }
+
+   &__block {
+      margin: 0px 0px 100px 0px;
+      @media (max-width:  767.98px){
+         margin: 0px 0px 40px 0px;
+      }
+      @media (max-width:  479.98px){
+   margin: 0px 0px 20px 0px;
+      }
+      
+   }
+
+   &__title {
+      font-weight: 500;
+font-size: 48px;
+margin: 0px 0px 20px 0px;
+color: #374151;
+@media (max-width:  767.98px){
+   font-size: 28px;
+}
+@media (max-width:  479.98px){
+ font-size: 18px;
+ margin: 0px 0px 10px 0px;  
+}
+   }
+
+   &__text {
+      font-size: 18px;
+text-align: center;
+display: block;
+@media (max-width:  767.98px){
+   font-size: 16px;
+}
+@media (max-width:  479.98px){
+   font-size: 14px;
+}
+
+color: #9CA3AF;
+   }
+
+   &__social {
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+   &__link {
+      
+      font-size: 38px;
+      color: #374151;
+      transition: all 0.3 ease 0s;
+      @media (max-width:  767.98px){
+      font-size: 28px;
+      }
+      @media (max-width:  479.98px){
+   font-size: 18px;
+      }
+      &:hover {
+         color: rgb(243, 8, 137);
+         transition: all 0.3 ease 0s;
+         
+      }
+   }
+}
+
+.icon-facebook2 {
+   
+}
+.icon-instagram {
+}
+.icon-telegram {
+}
+.icon-twitter {
+}
+.icon-github {
+}
+.icon-linkedin {
+}
+
+
